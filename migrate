@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: sandeep
+ * Date: 14/11/17
+ * Time: 5:50 PM
+ */
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/Migrate.php';
+
+
+$migrate = new \DbMigrate\Migrate();
+
+$output = $migrate->handle(new \Symfony\Component\Console\Input\ArgvInput);
+
+exit(1);

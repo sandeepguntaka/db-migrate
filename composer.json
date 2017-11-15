@@ -1,0 +1,15 @@
+{
+    "name": "sandeepguntaka/db-migrate",
+    "description": "Php CLI tool to migrate data across multiple databases",
+    "require": {
+        "symfony/yaml": "3.3.12",
+        "symfony/console": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandeep Reddy",
+            "email": "sandeepkmr70@gmail.com"
+        }
+    ]
+}
